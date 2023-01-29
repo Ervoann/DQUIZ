@@ -48,7 +48,7 @@ a {
 	margin: 15px 0;
 }
 
-.Main {
+.Main, .Main2 {
 	border-radius: 20px;
 	border: 1px solid var(--text);
 	background-color: var(--text);
@@ -65,7 +65,7 @@ button:active {
 	transform: scale(0.95);
 }
 
-.Main:hover {
+.Main:hover, .Main2:hover {
 	background-color: var(--orange);
     border: 1px solid var(--orange);
     transition: 0.05s ease-in-out;
@@ -257,6 +257,13 @@ input {
         margin-bottom: 20px;
     }
     .Main {
+        font-size: 3rem;
+        font-weight: 500;
+        border-radius: 50px;
+        padding: 24px 90px;
+        margin-top: 20px;
+    }
+    .Main2 {
         font-size: 3rem;
         font-weight: 500;
         border-radius: 50px;
