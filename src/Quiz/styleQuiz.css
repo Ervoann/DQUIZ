@@ -33,7 +33,7 @@ nav {
     left: 0;
     width: 100%;
     padding: 20px;
-    transition: all 0.4s ease;
+    transition: all 0.5s ease-in;
     background-color: var(--fond);
     z-index: 10;
   }
@@ -78,7 +78,7 @@ nav {
     font-size: 24px;
     font-weight: 500;
     padding: 10px 4px;
-    transition: all 0.3 ease;
+    transition: all 0.5s ease-in;
   }
   
   .nav-links li a:hover {
@@ -87,7 +87,7 @@ nav {
   
   .nav.sticky .nav-links li a {
     color: #fff;
-    transition: all 2s ease-in-out .5s;
+    transition: all 0.5s ease-in;
   }
   
   .nav.sticky .nav-links li a:hover {
@@ -155,7 +155,7 @@ nav {
     padding: 12px 45px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: transform 80ms ease-in;
+    transition: all 0.5s ease-in;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     margin-top: 20px;
@@ -169,7 +169,7 @@ nav {
   .Main:hover {
     background-color: var(--orange);
       border: 1px solid var(--orange);
-      transition: 0.05s ease-in-out;
+      transition: all 0.5s ease-in;
   }
   
   button:focus {
